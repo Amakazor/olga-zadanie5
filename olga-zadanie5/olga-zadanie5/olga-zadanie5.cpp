@@ -66,23 +66,28 @@ int main()
 	else
 	{
 		bool switch_current_exercise = false;
+		/*ZADANIE 5.1*/
+		// Kolejny raz napisz kod na potêgowanie. Tym razam skorzystaj z pêtli for w celu obliczenia wyniku
+		// 1. pobierz z konsoli podstawê oraz wyk³adnik.
+		// 2. opieraj¹c siê o wartoœæ wyk³adnika odpowiedni¹ liczbê razy przemnó¿ podstawê przez siebie.
+		// 3. wypisz wynik na konsolê.
 		if (!switch_current_exercise)
 		{
 
 		}
+		/*KONIEC ZADANIE 5.1*/
 		else
+		/*ZADANIE 5.2*/
+		// Napisz program który dla wszystkich liczb naturalnych od 0 do podanej liczby naturalnej bêdzie:
+		// A. Informowa³ gdy liczba jest podzielna przez 2, ale nie przez 6.
+		// B. Informowa³ gdy liczba jest podzielna przez 3, ale nie przez 6.
+		// C. Informowa³ gdy liczba jest podzielna przez 6.
+		//
+		// 1. pobierz z konsoli liczbê.
+		// 2. przeiteruj od 0 do liczby w³¹cznie wypisuj¹c w trakcie informacje z podpunktów A. B. C.
 		{
 
 		}
+		/*KONIEC ZADANIE 5.2*/
 	}
 }
-
-
-
-
-/*ZADANIE 4.1*/
-// Przerób Twój kod z poprzedniego zadania. Wykorzystaj odpowiednie petle w celu sprawdzenia czy dane wprowadzone przez u¿ytkownika s¹ poprawne tak d³ugo, a¿ poda poprawne dane
-// 1. Wykorzystaj pêtle w wyborze w menu oraz przy podawaniu drugiej liczby jeœli wybrane zostanie dzielenie
-// 2. Poprawnoœæ danych w wyborze w menu sprawdŸ u¿ywaj¹c operatora ||
-	
-/*KONIEC ZADANIE 4.1*/
