@@ -153,9 +153,6 @@
   <ItemGroup>
     <ClCompile Include="olga-zadanie5.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
