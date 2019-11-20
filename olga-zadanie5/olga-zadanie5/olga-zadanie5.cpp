@@ -1,12 +1,13 @@
 #include <iostream>
 
+
 /*ZADANIE 5*/
 /*Temat: pêtle for, operator arytmetyczny % */
 
 int main()
 {
 	bool example = true;
-	if (example)
+	if (!example)
 	{
 		bool switch_current_example = true;
 		/*Przyk³ad 5.1*/
@@ -73,6 +74,24 @@ int main()
 		// 3. wypisz wynik na konsolê.
 		if (!switch_current_exercise)
 		{
+			int podstawa = 0;
+			int wykladnik = 0;
+			int suma = 1;
+
+			std::cout << "Podaj prosze podstawe Twojej potegi: " << "\n\n";
+			std::cin >> podstawa; 
+			std::cout << "\n\n";
+			std::cout << "Podaj prosze wykladnik Twojej potegi: " << "\n\n";
+			std::cin >> wykladnik;
+			std::cout << "\n\n";
+
+			for (int i = 1; i <= wykladnik; i++)
+			{
+				suma *= podstawa;
+				
+			}
+
+			std::cout << "Twoj wynik to: " << suma;
 
 		}
 		/*KONIEC ZADANIE 5.1*/
@@ -86,6 +105,40 @@ int main()
 		// 1. pobierz z konsoli liczbê.
 		// 2. przeiteruj od 0 do liczby w³¹cznie wypisuj¹c w trakcie informacje z podpunktów A. B. C.
 		{
+			int liczba_naturalna = 0;
+
+			std::cout << "Podaj prosze Twoja liczbe naturalna: " << "\n\n";
+			std::cin >> liczba_naturalna;
+			std::cout << "\n\n";
+
+			for (int i = 0; i <= liczba_naturalna; i++)
+			{	
+				if (i == 0)
+				{
+					std::cout << "Liczba " << i << " jest podzielna przez 2, 3 i 6" << "\n\n";
+				}
+				else if (i % 2 == 0)
+				{
+					if (i % 3 != 0)
+					{
+						std::cout << "Liczba " << i <<  " jest podzielna przez 2, lecz nie jest podzielna przez 3 oraz 6" << "\n\n";
+						
+					}
+					else
+					{
+						std::cout << "Liczba " << i << " jest podzielna przez 2, 3 i 6." << "\n\n";
+					}
+				}
+				else if (i % 3 == 0)
+				{
+					std::cout << "Liczba " << i << " jest podzielna przez 3, lecz nie jest podzielna przez 2 i 6" << "\n\n";
+				}
+				else
+				{
+					std::cout << "Liczba " << i << " nie jest podzielna ani przez 2 ani przez 3. Przez 6 tez nie" << "\n\n";
+				}
+			}
+			
 
 		}
 		/*KONIEC ZADANIE 5.2*/
